@@ -19,6 +19,6 @@ Getting started
 1. git clone https://github.com/vuong2017/nextjs-starter.git <br/>
 2. cd nextjs-starter <br/>
 3. npm install <br/>
-4. npm r
+4. npm run dev <br/>
 
 <h2>Hope it can help you. Wish you a good day ^_^</h2>
