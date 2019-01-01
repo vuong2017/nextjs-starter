@@ -1,0 +1,29 @@
+{
+  "name": "Training-Htactive",
+  "scripts": {
+    "dev": "nodemon -w server server/index.js --exec babel-node",
+    "build": "next build && babel server --out-dir dist",
+    "start": "NODE_ENV=production node dist/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "express": "^4.16.4",
+    "immutable": "^4.0.0-rc.9",
+    "next": "7.0.2",
+    "next-redux-wrapper": "^2.1.0",
+    "next-routes": "^1.4.2",
+    "nodemon": "^1.18.9",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-immutable": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
+}
