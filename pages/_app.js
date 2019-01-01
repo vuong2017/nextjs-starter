@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import withRedux from 'next-redux-wrapper'
 import { fromJS } from 'immutable'
 
-import Layouts from '../src/layouts/admin-manager'
+// import Layouts from '../src/layouts/admin-manager'
 import initStore from '../src/store'
 
 class MyApp extends App {
@@ -21,9 +21,9 @@ class MyApp extends App {
     return (
       <Container>
         <Provider store={store}>
-          <Layouts>
+          {/* <Layouts> */}
             <Component {...pageProps} />
-          </Layouts>
+          {/* </Layouts> */}
         </Provider>
       </Container>
     )

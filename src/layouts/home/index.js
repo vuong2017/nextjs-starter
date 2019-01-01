@@ -4,7 +4,7 @@ import Nav from './Nav'
 export default ({ children }) => {
     return (
         <div>
-            <Head title="Layout Admin" />
+            <Head title="Layout Home" />
             <Nav />
             <main>
                 {children}
