@@ -1,5 +1,7 @@
 {
-  "name": "Training-Htactive",
+  "name": "nextjs-starter",
+  "version": "1.0.0",
+  "author": "Vuong Phan <phanquyenvuong@gmail.com>",
   "scripts": {
     "dev": "nodemon -w server server/index.js --exec babel-node",
     "build": "next build && babel server --out-dir dist",
