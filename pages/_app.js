@@ -6,6 +6,7 @@ import { fromJS } from 'immutable'
 
 import Layouts from '../src/layouts/admin-manager'
 import initStore from '../src/store'
+import '../src/style.scss'
 
 class MyApp extends App {
   static async getInitialProps ({ Component, ctx }) {
