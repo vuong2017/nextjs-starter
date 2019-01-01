@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "@babel/cli": "^7.2.3",
+    "@zeit/next-css": "^1.0.1",
     "express": "^4.16.4",
     "immutable": "^4.0.0-rc.9",
     "next": "7.0.2",
+    "next-compose-plugins": "^2.1.1",
     "next-redux-wrapper": "^2.1.0",
     "next-routes": "^1.4.2",
     "nodemon": "^1.18.9",
