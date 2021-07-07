@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Layout from '../../../layouts/admin-manager'
 import { fetchDataHome } from '../../../actions/home'
 import Count from './Count'
 
@@ -22,10 +22,12 @@ class Home extends Component {
     let { state } = this.props
     this.count += 1
     return (
-      <div>
+      <Layout>
+        <div>
           <h1>Hello Names {state.get("home").get("name")}</h1>
           <Count count={this.count}/>
-      </div>
+        </div>
+      </Layout>
     )
   }
 }
